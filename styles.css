@@ -1,0 +1,51 @@
+body {
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-title {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: white;
+    width: fit-content;
+}
+
+.texto{
+    padding: 10px;
+}
+
+p {
+    width: 700px;
+    text-align: justify;
+}
+i {font-size: 70px;
+}
+
+#inicio{
+    padding-left: 25px;
+}
+.rigth-icon {
+    margin-left: 650px;
+    position: absolute;
+}
+.feed-header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    PADDING-RIGHT: 25PX;
+    PADDING-TOP: 25PX;
+}
+strong {
+    font-size: larger;
+}
+#trio {
+    width: 300px;
+    justify-content: space-evenly;
+}
