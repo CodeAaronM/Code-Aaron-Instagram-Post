@@ -5,19 +5,15 @@ body {
     align-items: center;
 }
 .left-title {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+display: ruby;
 }
+
 .container {
+    border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
     background: white;
     width: fit-content;
-}
-
-.texto{
-    padding: 10px;
 }
 
 p {
@@ -31,8 +27,8 @@ i {font-size: 70px;
     padding-left: 25px;
 }
 .rigth-icon {
-    margin-left: 650px;
-    position: absolute;
+    position: relative;
+    top: 15px;
 }
 .feed-header {
     background: white;
@@ -40,12 +36,26 @@ i {font-size: 70px;
     justify-content: space-between;
     position: relative;
     PADDING-RIGHT: 25PX;
-    PADDING-TOP: 25PX;
+    border-radius: inherit;
 }
 strong {
     font-size: larger;
 }
 #trio {
+    PADDING-TOP: 25PX;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
     width: 300px;
     justify-content: space-evenly;
+}
+
+#trio i {font-size: 55px;
+
+}
+#lowR {font-size: 55px;
+
+}
+.texto {
+    padding-left: 10px;
 }
